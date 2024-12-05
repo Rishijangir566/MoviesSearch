@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0%;
+    box-sizing:border-box;
+
+}
+#moviefinder{
+    width: 90%;
+    margin: 0 auto;
+}
+form{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    
+}
+input{
+    margin: 0 2rem;
+    font-size: 1.5rem;
+    width:30%;
+    padding-left: 10px;
+}
+button{
+    font-size: 1.5rem;
+    padding: 4px 10px ;
+    background-color: black;
+    color: aliceblue;
+    border: none;
+}
+#results {
+    display: flex;
+    justify-content: space-evenly; 
+    flex-wrap: wrap; 
+    gap:1.2rem;
+    margin-top: 4rem; 
+}
+
+#results .result {
+    flex: 1 1 calc(25% - 1rem);
+    width: 20rem; 
+    height: 25rem; 
+}
+
+.result img{
+    height:20rem;
+    width: 100%;
+}
+h3{
+    text-align: center;
+}
